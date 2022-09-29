@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +13,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #efefed;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -95,6 +98,7 @@ hr {
     display: flex;
     justify-content: space-between;
     width: 85%;
+    margin-top: 10px;
 }
 
 .button-social {
@@ -110,3 +114,38 @@ button {
     border: none;
 }
 
+.button-instagram {
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    cursor: pointer;
+}
+
+.button-instagram:hover {
+    background:linear-gradient(45deg, #fd1d1d, #e1306c, #c13584, #833ab4, #5851db, #405de6);
+}
+
+.button-github {
+    background:linear-gradient(45deg, #1e2f64, #6f7ba5);
+    cursor: pointer;
+}
+
+.button-github:hover {
+    background:linear-gradient(45deg, #6f7ba5, #1e2f64);
+}
+
+
+.button-linkedin {
+    background:linear-gradient(45deg, #5378c9, #9eafcf);
+    cursor: pointer;
+}
+
+.button-linkedin:hover {
+    background:linear-gradient(45deg, #9eafcf, #5378c9);
+}
+
+.button-social .fa {
+    font-size: 25px;
+}
+
+.seguidores {
+    color: #fff;
+}
