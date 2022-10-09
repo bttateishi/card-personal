@@ -149,3 +149,7 @@ button {
 .seguidores {
     color: #fff;
 }
+
+.top-bar .fa {
+    cursor: pointer;
+}
